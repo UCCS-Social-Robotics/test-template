@@ -1,0 +1,139 @@
+#################################################################################
+# This file includes rules for ignoring local files which you never want
+# to be tracked or included in your repository.
+
+# This template includes rules for:
+#  - macOS system files
+#  - Windows system files
+#  - Linux system files
+#  - Visual Studio Code local files
+#  - Microsoft Office products' temp files
+
+# Be sure to copy and add the standard .gitignore rules for any OSs, IDEs,
+# programming languages, or other tools you intend to use. You can typically
+# find these templates with a quick Google search. Additionally, GitHub
+# maintains a list of useful templates here: https://github.com/github/gitignore
+
+# You can also add rules for ignoring specific directories and files within
+# your repository (such as log files, configs, etc.). Instructions for creating
+# rules are defined by git here: https://git-scm.com/docs/gitignore
+#################################################################################
+
+##################################################
+# Ignore macOS System Files
+##################################################
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+##################################################
+# Ignore Windows System Files
+##################################################
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+##################################################
+# Ignore Linux System Files
+##################################################
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+##################################################
+# Ignore VS Code Files
+##################################################
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+
+##################################################
+# Ignore Microsoft Office Files
+################################################## 
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
